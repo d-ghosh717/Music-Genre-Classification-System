@@ -1,0 +1,55 @@
+=========================================================================
+      PHASE 10: EXTERNAL BENCHMARK EVALUATION (MTG-JAMENDO 100 TRACKS)   
+=========================================================================
+
+Dataset: MTG-Jamendo (100 tracks, 10 per genre, 100 distinct artists)
+Model Agreement Rate: 42.00%
+
+--- ANN (Multilayer Perceptron) Results ---
+Accuracy   : 39.00%
+Macro F1   : 0.3687
+Weighted F1: 0.3687
+Mean Conf  : 62.5%
+Mean Entr  : 1.61 bits
+
+              precision    recall  f1-score   support
+
+       blues       0.29      0.20      0.24        10
+   classical       0.56      0.50      0.53        10
+     country       0.45      0.50      0.48        10
+       disco       0.27      0.30      0.29        10
+      hiphop       0.56      0.90      0.69        10
+        jazz       0.29      0.40      0.33        10
+       metal       0.50      0.50      0.50        10
+         pop       0.00      0.00      0.00        10
+      reggae       0.56      0.50      0.53        10
+        rock       0.12      0.10      0.11        10
+
+    accuracy                           0.39       100
+   macro avg       0.36      0.39      0.37       100
+weighted avg       0.36      0.39      0.37       100
+
+
+--- CNN (Convolutional Neural Network) Results ---
+Accuracy   : 44.00%
+Macro F1   : 0.4016
+Weighted F1: 0.4016
+Mean Conf  : 62.4%
+Mean Entr  : 1.51 bits
+
+              precision    recall  f1-score   support
+
+       blues       0.20      0.10      0.13        10
+   classical       1.00      0.20      0.33        10
+     country       0.44      0.70      0.54        10
+       disco       0.75      0.30      0.43        10
+      hiphop       0.54      0.70      0.61        10
+        jazz       0.38      0.50      0.43        10
+       metal       0.45      0.90      0.60        10
+         pop       0.10      0.10      0.10        10
+      reggae       0.62      0.80      0.70        10
+        rock       0.25      0.10      0.14        10
+
+    accuracy                           0.44       100
+   macro avg       0.47      0.44      0.40       100
+weighted avg       0.47      0.44      0.40       100

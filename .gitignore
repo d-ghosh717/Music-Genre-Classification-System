@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment variables & Local configuration
+.env
+.env.local
+
+# Databases (Local prediction history)
+*.db
+*.sqlite3
+backend/*.db
+backend/database/*.db
+
+# Frontend build & dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Temporary & Upload files
+tmp/
+temp/
+*.tmp
+uploads/
+
+# Datasets (Too large for git, GTZAN raw audio)
+Data/
+dataset/
+
+# ML Large training cache & intermediate checkpoints
+ml/saved_models/cache/
+ml/saved_models/*_best.keras
+ml/saved_models/phase7_improved_*
+ml/saved_models/baseline_*

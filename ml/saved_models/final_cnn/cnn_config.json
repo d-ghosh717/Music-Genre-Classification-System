@@ -1,0 +1,12 @@
+{
+  "mean": -38.782649993896484,
+  "std": 13.71749310357666,
+  "input_shape": [
+    128,
+    130,
+    1
+  ],
+  "segment_duration": 3.0,
+  "segment_overlap": 0.5,
+  "expected_frames": 130
+}

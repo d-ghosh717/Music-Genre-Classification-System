@@ -1,0 +1,559 @@
+{
+  "dataset_path": "/Volumes/d/Projects/NNP/dataset/genres_original",
+  "total_files": 1000,
+  "invalid_corrupted_files": [
+    "jazz.00054.wav"
+  ],
+  "total_valid_tracks": 999,
+  "exact_duplicate_groups_count": 14,
+  "exact_duplicate_tracks_count": 28,
+  "groups_with_split_leakage_in_baseline": 7,
+  "groups_with_label_conflict": 1,
+  "exact_duplicate_groups": [
+    {
+      "group_id": 1,
+      "sha256_pcm": "90e94b817eeb79bf5e1276af873295c636286f6069f51b9fa93e5761bc450b7a",
+      "files": [
+        "disco.00098.wav",
+        "disco.00099.wav"
+      ],
+      "genres": [
+        "disco",
+        "disco"
+      ],
+      "partitions": [
+        "val",
+        "train"
+      ],
+      "has_split_leakage": true,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 2,
+      "sha256_pcm": "15fbd696d0f3e7dedcf9975b0ec820fe8794bfdac09d55e90291c05d3d9ecde3",
+      "files": [
+        "hiphop.00039.wav",
+        "hiphop.00045.wav"
+      ],
+      "genres": [
+        "hiphop",
+        "hiphop"
+      ],
+      "partitions": [
+        "test",
+        "train"
+      ],
+      "has_split_leakage": true,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 3,
+      "sha256_pcm": "cecf4350e75f6ef00afa4e4087887fb55da4c5cd9f2edd8cbd9bbfaa90212858",
+      "files": [
+        "hiphop.00076.wav",
+        "hiphop.00078.wav"
+      ],
+      "genres": [
+        "hiphop",
+        "hiphop"
+      ],
+      "partitions": [
+        "val",
+        "val"
+      ],
+      "has_split_leakage": false,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 4,
+      "sha256_pcm": "3243ee5f098c2840ec1d7acde3b6a436e4f8e175e35f9bd0be2ecc7e05129292",
+      "files": [
+        "metal.00034.wav",
+        "metal.00094.wav"
+      ],
+      "genres": [
+        "metal",
+        "metal"
+      ],
+      "partitions": [
+        "val",
+        "train"
+      ],
+      "has_split_leakage": true,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 5,
+      "sha256_pcm": "f71e742f129bd0e8ca8d625e22e5e0aa9fffcacc3af436d8a99f5097509dbe5a",
+      "files": [
+        "metal.00040.wav",
+        "metal.00061.wav"
+      ],
+      "genres": [
+        "metal",
+        "metal"
+      ],
+      "partitions": [
+        "train",
+        "train"
+      ],
+      "has_split_leakage": false,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 6,
+      "sha256_pcm": "e3ce257ad26a7800e1fb4b5c2843c1d8b1b1cecaef214bd724ab54fc1dfac16c",
+      "files": [
+        "metal.00041.wav",
+        "metal.00062.wav"
+      ],
+      "genres": [
+        "metal",
+        "metal"
+      ],
+      "partitions": [
+        "train",
+        "train"
+      ],
+      "has_split_leakage": false,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 7,
+      "sha256_pcm": "d6c54416a3fd38a81273a44daa0d11720e06f43e2454457a68ff2d4c360dfe00",
+      "files": [
+        "metal.00042.wav",
+        "metal.00063.wav"
+      ],
+      "genres": [
+        "metal",
+        "metal"
+      ],
+      "partitions": [
+        "train",
+        "val"
+      ],
+      "has_split_leakage": true,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 8,
+      "sha256_pcm": "77caadd566dc0c6dbc2dbceb7a580bca76f93890433f14899ebc522e385c1f50",
+      "files": [
+        "metal.00043.wav",
+        "metal.00064.wav"
+      ],
+      "genres": [
+        "metal",
+        "metal"
+      ],
+      "partitions": [
+        "train",
+        "val"
+      ],
+      "has_split_leakage": true,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 9,
+      "sha256_pcm": "ff1bfb42804b74fce27b6bc0cff65dc82667ea286af14f909ec7766ce277e208",
+      "files": [
+        "metal.00044.wav",
+        "metal.00065.wav"
+      ],
+      "genres": [
+        "metal",
+        "metal"
+      ],
+      "partitions": [
+        "test",
+        "train"
+      ],
+      "has_split_leakage": true,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 10,
+      "sha256_pcm": "10fd707bbe24f87dd3554db85363000f2bb78b68bba5d06cfae2aafccfb21e09",
+      "files": [
+        "metal.00045.wav",
+        "metal.00066.wav"
+      ],
+      "genres": [
+        "metal",
+        "metal"
+      ],
+      "partitions": [
+        "train",
+        "test"
+      ],
+      "has_split_leakage": true,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 11,
+      "sha256_pcm": "360ea5411802133c7962ef62b9e75dd602f2c6efcaaac0166ae1cd58b0997a2e",
+      "files": [
+        "metal.00058.wav",
+        "rock.00016.wav"
+      ],
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "partitions": [
+        "train",
+        "train"
+      ],
+      "has_split_leakage": false,
+      "has_label_conflict": true
+    },
+    {
+      "group_id": 12,
+      "sha256_pcm": "a5199c53e9970c58ecf79ce569f65c375bc5db6aff790cda1d6f113808e6f229",
+      "files": [
+        "pop.00054.wav",
+        "pop.00060.wav"
+      ],
+      "genres": [
+        "pop",
+        "pop"
+      ],
+      "partitions": [
+        "train",
+        "train"
+      ],
+      "has_split_leakage": false,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 13,
+      "sha256_pcm": "00d432325dba115d5d539131d90c9114ccbfdede095056d2b4c743af3c9dec1d",
+      "files": [
+        "pop.00067.wav",
+        "pop.00071.wav"
+      ],
+      "genres": [
+        "pop",
+        "pop"
+      ],
+      "partitions": [
+        "train",
+        "train"
+      ],
+      "has_split_leakage": false,
+      "has_label_conflict": false
+    },
+    {
+      "group_id": 14,
+      "sha256_pcm": "9c15193726d22da4ab55f805f391bf2a3d1f78e9df62ae403a09324f3e6d9884",
+      "files": [
+        "reggae.00081.wav",
+        "reggae.00082.wav"
+      ],
+      "genres": [
+        "reggae",
+        "reggae"
+      ],
+      "partitions": [
+        "train",
+        "train"
+      ],
+      "has_split_leakage": false,
+      "has_label_conflict": false
+    }
+  ],
+  "near_duplicate_pairs": [
+    {
+      "file1": "disco.00098.wav",
+      "genre1": "disco",
+      "file2": "disco.00099.wav",
+      "genre2": "disco",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "hiphop.00039.wav",
+      "genre1": "hiphop",
+      "file2": "hiphop.00045.wav",
+      "genre2": "hiphop",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "hiphop.00076.wav",
+      "genre1": "hiphop",
+      "file2": "hiphop.00078.wav",
+      "genre2": "hiphop",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "jazz.00033.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00051.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00034.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00053.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00035.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00055.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00036.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00058.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00037.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00060.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00038.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00062.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00039.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00065.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00040.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00067.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00042.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00068.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00043.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00069.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00044.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00070.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00045.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00071.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "jazz.00046.wav",
+      "genre1": "jazz",
+      "file2": "jazz.00072.wav",
+      "genre2": "jazz",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "metal.00034.wav",
+      "genre1": "metal",
+      "file2": "metal.00094.wav",
+      "genre2": "metal",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "metal.00040.wav",
+      "genre1": "metal",
+      "file2": "metal.00061.wav",
+      "genre2": "metal",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "metal.00041.wav",
+      "genre1": "metal",
+      "file2": "metal.00062.wav",
+      "genre2": "metal",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "metal.00042.wav",
+      "genre1": "metal",
+      "file2": "metal.00063.wav",
+      "genre2": "metal",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "metal.00043.wav",
+      "genre1": "metal",
+      "file2": "metal.00064.wav",
+      "genre2": "metal",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "metal.00044.wav",
+      "genre1": "metal",
+      "file2": "metal.00065.wav",
+      "genre2": "metal",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "metal.00045.wav",
+      "genre1": "metal",
+      "file2": "metal.00066.wav",
+      "genre2": "metal",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "metal.00058.wav",
+      "genre1": "metal",
+      "file2": "rock.00016.wav",
+      "genre2": "rock",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "pop.00015.wav",
+      "genre1": "pop",
+      "file2": "pop.00022.wav",
+      "genre2": "pop",
+      "correlation": 0.99831,
+      "offset_seconds": -0.0392,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "pop.00047.wav",
+      "genre1": "pop",
+      "file2": "pop.00080.wav",
+      "genre2": "pop",
+      "correlation": 0.99004,
+      "offset_seconds": 0.0784,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "pop.00054.wav",
+      "genre1": "pop",
+      "file2": "pop.00060.wav",
+      "genre2": "pop",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "pop.00056.wav",
+      "genre1": "pop",
+      "file2": "pop.00059.wav",
+      "genre2": "pop",
+      "correlation": 0.99022,
+      "offset_seconds": 0.0239,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "pop.00067.wav",
+      "genre1": "pop",
+      "file2": "pop.00071.wav",
+      "genre2": "pop",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    },
+    {
+      "file1": "pop.00087.wav",
+      "genre1": "pop",
+      "file2": "pop.00090.wav",
+      "genre2": "pop",
+      "correlation": 0.98046,
+      "offset_seconds": 0.0272,
+      "is_exact_sample": false
+    },
+    {
+      "file1": "reggae.00081.wav",
+      "genre1": "reggae",
+      "file2": "reggae.00082.wav",
+      "genre2": "reggae",
+      "correlation": 1.0,
+      "offset_seconds": 0.0,
+      "is_exact_sample": true
+    }
+  ],
+  "contradictory_label_case_study": {
+    "file_a": "metal.00058.wav",
+    "genre_a": "metal",
+    "file_b": "rock.00016.wav",
+    "genre_b": "rock",
+    "sha256_match": true,
+    "max_sample_difference": 0.0,
+    "song_identification": "Queen - 'Tie Your Mother Down' (A Day at the Races, 1976)",
+    "mir_literature_reference": "Bob L. Sturm (2012, 2013) 'An analysis of the GTZAN music genre dataset' / 'The GTZAN dataset: Its contents, its faults'",
+    "nature_of_error": "George Tzanetakis sourced Queen tracks from commercial CDs and filed excerpts under both 'rock' and 'metal'. Because Queen's composition is Hard Rock / Classic Rock, the 'metal' label is historically and stylistically inaccurate, representing both a duplicate repetition and an erroneous genre assignment.",
+    "recommended_resolution": "Exclude 'metal.00058.wav' from the decontaminated dataset. Retain 'rock.00016.wav' under its legitimate genre 'rock'. This eliminates contradictory supervisory signals (P(metal)=1 vs P(rock)=1 for identical audio) while maintaining Queen's proper historical genre attribution."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "mean": -44.22877502441406,
+  "std": 18.921708153320314,
+  "segment_duration": 3.0,
+  "segment_overlap": 0.5,
+  "expected_frames": 130
+}

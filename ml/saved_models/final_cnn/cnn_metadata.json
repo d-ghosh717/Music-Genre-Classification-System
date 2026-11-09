@@ -1,0 +1,80 @@
+{
+  "class_labels": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "input_shape": [
+    128,
+    130,
+    1
+  ],
+  "spectrogram_configuration": {
+    "n_mels": 128,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "fmax": 8000,
+    "sample_rate": 22050
+  },
+  "segment_duration": 3.0,
+  "segment_overlap": 0.5,
+  "model_architecture": {
+    "type": "Convolutional Neural Network (CNN)",
+    "conv_filters": [
+      32,
+      64,
+      128
+    ],
+    "kernel_size": [
+      3,
+      3
+    ],
+    "pool_size": [
+      2,
+      2
+    ],
+    "dense_units": 128,
+    "dropout_rate": 0.4,
+    "use_batch_norm": true,
+    "summary": "Conv2D(32, 3x3) -> BN -> MaxPool(2x2) -> Conv2D(64, 3x3) -> BN -> MaxPool(2x2) -> Conv2D(128, 3x3) -> BN -> MaxPool(2x2) -> GAP -> Dense(128) -> Dropout(0.4) -> Dense(10, Softmax)"
+  },
+  "training_configuration": {
+    "epochs": 30,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "loss": "sparse_categorical_crossentropy",
+    "early_stopping_patience": 12,
+    "augmentation_used": true
+  },
+  "is_decontaminated_split": true,
+  "dataset_split_information": {
+    "train_tracks": 694,
+    "val_tracks": 151,
+    "test_tracks": 153,
+    "split_type": "decontaminated_grouped_stratified",
+    "clean_splits_manifest": "dataset/clean_splits.json",
+    "random_seed": 42
+  },
+  "training_date": "2026-11-08T06:15:42.884388+00:00",
+  "performance": {
+    "test_accuracy": 0.803921568627451,
+    "test_f1_macro": 0.7913664740230205,
+    "test_f1_weighted": 0.79284403727856,
+    "test_loss": 0.8809871673583984,
+    "epochs_trained": 14,
+    "training_duration_seconds": 1249.42
+  },
+  "relative_paths": {
+    "model_path": "ml/saved_models/cnn_model.keras",
+    "best_model_path": "ml/saved_models/cnn_best.keras",
+    "metadata_path": "ml/saved_models/cnn_metadata.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "baseline_ann": {
+    "model_name": "Baseline ANN (61 features)",
+    "accuracy": 0.68,
+    "f1_macro": 0.6667099479689613,
+    "f1_weighted": 0.6667099479689612,
+    "test_loss": 0.9024496674537659,
+    "feature_count": 61,
+    "model_size_kb": 735.8
+  },
+  "improved_ann": {
+    "model_name": "Improved ANN (75 features + Spectral Contrast + Peak Norm)",
+    "accuracy": 0.7333333333333333,
+    "f1_macro": 0.731224120274732,
+    "f1_weighted": 0.7312241202747322,
+    "test_loss": 0.8300775289535522,
+    "feature_count": 75,
+    "model_size_kb": 777.8
+  },
+  "baseline_cnn": {
+    "model_name": "Baseline CNN (0% inference overlap)",
+    "accuracy": 0.8733333333333333,
+    "f1_macro": 0.8715009475548964,
+    "f1_weighted": 0.8715009475548963,
+    "test_loss": 0.708877444267273,
+    "model_size_kb": 1365.6
+  },
+  "improved_cnn": {
+    "model_name": "Improved CNN (50% inference overlap + Peak Norm)",
+    "accuracy": 0.8666666666666667,
+    "f1_macro": 0.8646173295915821,
+    "f1_weighted": 0.8646173295915821,
+    "test_loss": 0.708877444267273,
+    "model_size_kb": 1365.6
+  },
+  "ann_gain": {
+    "accuracy_delta": 0.0533,
+    "f1_macro_delta": 0.0645
+  },
+  "cnn_gain": {
+    "accuracy_delta": -0.0067,
+    "f1_macro_delta": -0.0069
+  }
+}

@@ -1,0 +1,101 @@
+track_id,track_name,artist_name,ground_truth,ann_predicted,ann_confidence,ann_entropy,ann_correct,cnn_predicted,cnn_confidence,cnn_entropy,cnn_correct,models_agree,uncertainty_status
+track_0004563,Y2K,David Schombert,blues,disco,0.7078,1.342,False,disco,0.8005,1.017,False,True,Confident Consensus
+track_0004636,Electro blues,Alexander Blu,blues,rock,0.4222,2.166,False,pop,0.7111,1.412,False,False,Architectural Disagreement
+track_0004880,What Cool,Tom La Meche,blues,jazz,0.9009,0.663,False,jazz,0.711,1.248,False,True,Confident Consensus
+track_0011184,Don't force Moé,AS-POTIRONT!,blues,jazz,0.7704,1.159,False,country,0.5604,1.487,False,False,Architectural Disagreement
+track_0012301,Steady B.,Trafic de Blues,blues,jazz,0.3245,2.473,False,blues,0.2869,2.365,True,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0014378,You Shoot to Kill,Sickboys and Lowmen,blues,classical,0.4771,2.269,False,rock,0.6362,1.622,False,False,Architectural Disagreement
+track_0019179,Lost Highway,Licite Fondation,blues,country,0.4565,2.307,False,country,0.3737,2.481,False,True,High Uncertainty / Potential Out-of-Taxonomy
+track_0021502,Unikum ,Olga Scotland,blues,blues,0.4164,2.124,True,jazz,0.8648,0.7,False,False,Architectural Disagreement
+track_0023172,A day in the country,darkmoon project,blues,classical,0.8317,1.005,False,country,0.9213,0.407,False,False,Architectural Disagreement
+track_0023195,Manon cherche son frère,Mes chansons chaussent du 24,blues,blues,0.7803,1.156,True,country,0.4605,2.342,False,False,Architectural Disagreement
+track_0000382,Soon and Very Soon (Negro Spiritual),Les Petits Chanteurs de Montigny,classical,rock,0.5719,2.117,False,classical,0.3194,2.5,True,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0001268,Interlude,Talking Cure,classical,classical,0.907,0.45,True,jazz,0.6458,1.576,False,False,Architectural Disagreement
+track_0002172,Les chevaliers de l'Aar,Greg Baumont,classical,classical,0.9561,0.349,True,classical,0.2996,2.363,True,True,Moderate Uncertainty
+track_0006011,Valse,ZAMALA,classical,jazz,0.9699,0.218,False,jazz,0.9872,0.114,False,True,Confident Consensus
+track_0006248,La serenite,Xcyril,classical,classical,0.6477,1.637,True,jazz,0.6205,1.554,False,False,Architectural Disagreement
+track_0006727,Resignation,Steven Dunston,classical,classical,0.6469,0.94,True,jazz,0.5194,1.812,False,False,Architectural Disagreement
+track_0007258,Reviens-moi,FrenchLAB (French Laboratory Of),classical,rock,0.6294,1.866,False,rock,0.6049,1.912,False,True,High Uncertainty / Potential Out-of-Taxonomy
+track_0008562,Place d'Italie,Manu Cornet,classical,jazz,0.8747,0.657,False,blues,0.2999,2.144,False,False,Architectural Disagreement
+track_0011839,bluzynette,Fadièse,classical,jazz,0.8493,0.775,False,blues,0.5161,1.708,False,False,Architectural Disagreement
+track_0014013,Roots,Galdson,classical,classical,0.9501,0.301,True,jazz,0.7009,1.133,False,False,Architectural Disagreement
+track_0035107,Alabama,Andrea Barone,country,jazz,0.429,2.586,False,reggae,0.7224,1.502,False,False,Architectural Disagreement
+track_0048843,l'abandon,flo,country,country,0.5583,1.646,True,country,0.525,1.992,True,True,Moderate Uncertainty
+track_0078729,Untitled,Josh Woodward,country,country,0.5905,2.08,True,country,0.5851,1.84,True,True,High Uncertainty / Potential Out-of-Taxonomy
+track_0100603,Three Minutes to Escape,The Wavers,country,jazz,0.3995,2.559,False,country,0.6243,1.725,True,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0101435,Das mit dem Leuchtturm,Kapelle Koralle,country,country,0.8797,0.803,True,country,0.9667,0.255,True,True,Confident Consensus
+track_0129965,Brasstown Bald Revival,Racecar,country,country,0.7322,1.237,True,country,0.6998,1.236,True,True,Confident Consensus
+track_0149430,"Demora, não",Greco Cruz,country,rock,0.4571,2.388,False,jazz,0.2281,2.793,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0180932,Rock 'ö' Mobile,Snook,country,rock,0.606,2.104,False,country,0.3987,2.332,True,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0186530,Campus Lounge,Trundicho,country,country,0.344,2.454,True,pop,0.4465,2.108,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0246923,Faites vos jeux,Dutajel,country,disco,0.8876,0.76,False,country,0.5281,1.793,True,False,Architectural Disagreement
+track_0000851,La Kiffonisation est en marche,Kiff'On,disco,rock,0.2968,2.569,False,hiphop,0.2136,2.824,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0003961,P-F-M,FOXAPET,disco,reggae,0.7109,1.555,False,hiphop,0.427,1.775,False,False,Architectural Disagreement
+track_0015170,experience III,Grace Valhalla,disco,pop,0.437,2.244,False,pop,0.6119,1.838,False,True,High Uncertainty / Potential Out-of-Taxonomy
+track_0054222,Arythmic Dj.,St Adam,disco,rock,0.6218,1.57,False,pop,0.2987,2.631,False,False,Architectural Disagreement
+track_0064507,Siempre,XTN,disco,disco,0.4549,2.241,True,disco,0.9078,0.666,True,True,Moderate Uncertainty
+track_0117790,man went to the wood and mushroom ate him,šundrdisko,disco,pop,0.4236,2.121,False,metal,0.4588,2.398,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0159038,Bonjour jeune fille,KRUSTY,disco,disco,0.4634,2.315,True,metal,0.9454,0.383,False,False,Architectural Disagreement
+track_0209622,Tu Tchy (featuring Dr patouille),MOochta moOl,disco,hiphop,0.8913,0.697,False,hiphop,0.7134,1.3,False,True,Confident Consensus
+track_0223467,Disco Symphony,Julien (Maska) Degerbe,disco,disco,0.572,1.795,True,disco,0.7461,1.109,True,True,Moderate Uncertainty
+track_0225361,Sweet Addiction,Fhernando,disco,pop,0.3098,2.565,False,disco,0.6868,1.051,True,False,Architectural Disagreement
+track_0043411,H-Stadt (Herzlich Willkommen...),K.Os Rhymes,hiphop,hiphop,0.9319,0.491,True,hiphop,0.8895,0.613,True,True,Confident Consensus
+track_0066676,090207,Organic Despair,hiphop,blues,0.4032,2.582,False,pop,0.8796,0.69,False,False,Architectural Disagreement
+track_0073058,Intro by Cartel,Cartel,hiphop,hiphop,0.9726,0.213,True,hiphop,0.9733,0.212,True,True,Confident Consensus
+track_0074341,Interlude,Moe2Smoke,hiphop,hiphop,0.569,1.903,True,pop,0.564,1.38,False,False,Architectural Disagreement
+track_0075003,Remix by Anjelyno,Los Intokables del reggaeton,hiphop,hiphop,0.7714,1.258,True,hiphop,0.7205,1.382,True,True,Confident Consensus
+track_0076725,01 - fuori quarantena intro,Miguel Prod,hiphop,hiphop,0.977,0.211,True,hiphop,0.7716,0.872,True,True,Confident Consensus
+track_0081181,change,BeatRaider,hiphop,hiphop,0.2551,2.794,True,pop,0.4244,2.231,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0089916,Agent T.,Samplastik,hiphop,hiphop,0.9386,0.49,True,hiphop,0.9958,0.042,True,True,Confident Consensus
+track_0111038,Intro,Coehn&Foehrb,hiphop,hiphop,0.9513,0.359,True,hiphop,0.5588,1.694,True,True,Moderate Uncertainty
+track_0118534, if you want it,Emcee Lynx,hiphop,hiphop,0.5625,2.167,True,hiphop,0.8725,0.801,True,True,Moderate Uncertainty
+track_0003933,l'âne au piquet,thelinks,jazz,jazz,0.9858,0.134,True,jazz,0.6011,1.82,True,True,Moderate Uncertainty
+track_0017490,DEHi,Piergiorgio Lucidi,jazz,jazz,0.8753,0.75,True,jazz,0.5374,1.614,True,True,Moderate Uncertainty
+track_0020492,LOUI's_SONG,ZERO_1,jazz,classical,0.3753,2.551,False,jazz,0.6788,1.594,True,False,Architectural Disagreement
+track_0020763,AS THE SUN RISES,conFusion,jazz,pop,0.3123,2.623,False,blues,0.4887,1.606,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0022549,"A la Roberto, tema I",clbustos,jazz,jazz,0.9202,0.55,True,jazz,0.2877,2.373,True,True,Moderate Uncertainty
+track_0024321,Le jour où l'ascenseur est tombé dans le puits,Real Rice,jazz,country,0.341,2.427,False,pop,0.7026,1.382,False,False,Architectural Disagreement
+track_0025706,When Waves Trying to Catch a Marvel,Antony Raijekov,jazz,jazz,0.2884,2.946,True,reggae,0.7639,1.328,False,False,Architectural Disagreement
+track_0030224,Histoire D'un Homme,Le Zaarth,jazz,blues,0.5031,2.351,False,reggae,0.4062,2.045,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0034558,Oat Flakes,Boom Boom Beckett,jazz,pop,0.5462,1.995,False,jazz,0.8913,0.663,True,False,Architectural Disagreement
+track_0047900,Je positive,En attendant Mado,jazz,reggae,0.5004,2.225,False,blues,0.321,2.518,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0000215,Aide toi...,David TMX,metal,metal,0.9517,0.355,True,metal,0.8856,0.647,True,True,Confident Consensus
+track_0001103,I'm leaving,Both,metal,disco,0.3959,2.374,False,metal,0.7777,1.111,True,False,Architectural Disagreement
+track_0010053,Now Or Never,Ciruelo Cilíndrico,metal,blues,0.4788,2.032,False,metal,0.3449,1.909,True,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0012099,Virtual defect,POSITIV HATE,metal,metal,0.5165,1.83,True,metal,0.9958,0.046,True,True,Moderate Uncertainty
+track_0013197,Dead Again,Anarcotik,metal,metal,0.8346,0.816,True,metal,0.9983,0.02,True,True,Confident Consensus
+track_0016092,Hate Has No Face / Rude Awakening,OMAÏNEN,metal,country,0.738,1.192,False,country,0.8203,1.017,False,True,Confident Consensus
+track_0047051,Fanny,Contreband,metal,metal,0.4525,2.005,True,metal,0.6985,1.491,True,True,Moderate Uncertainty
+track_0069637,Come With Me,Danforth,metal,hiphop,0.7263,1.32,False,metal,0.9022,0.485,True,False,Architectural Disagreement
+track_0076107,Rouge sang,Carmina,metal,metal,0.9431,0.372,True,metal,0.9981,0.022,True,True,Confident Consensus
+track_0095366,Overtones,Psychocean,metal,classical,0.4191,2.328,False,metal,0.8625,0.875,True,False,Architectural Disagreement
+track_0000759,Sunlight,Vavrek,pop,country,0.6176,1.82,False,pop,0.3679,2.048,True,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0000808,Seven Months,AMPM,pop,country,0.3941,2.207,False,metal,0.4245,1.925,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0003097,Sous le soleil Jamaique,DRDJEKILL,pop,disco,0.3253,2.123,False,reggae,0.6084,1.928,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0003346,Hey Girl,Mel's,pop,jazz,0.3554,2.701,False,rock,0.4081,2.249,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0004241,Je vais bien,El Manu,pop,jazz,0.6805,1.629,False,metal,0.6767,1.496,False,False,Architectural Disagreement
+track_0005483,Bahbushska,Systylé,pop,reggae,0.7842,1.291,False,reggae,0.5287,2.224,False,True,Moderate Uncertainty
+track_0005695,Inertia,The TenGooz,pop,disco,0.6346,1.821,False,country,0.2385,2.681,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0007092,Léa,adel,pop,reggae,0.6914,1.652,False,country,0.5806,2.026,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0008454,I Hate,Narcis,pop,country,0.3895,2.496,False,country,0.6234,1.751,False,True,High Uncertainty / Potential Out-of-Taxonomy
+track_0012674,"Tout en haut de la France (4"" version)",Badger,pop,hiphop,0.5087,2.103,False,hiphop,0.3326,2.616,False,True,High Uncertainty / Potential Out-of-Taxonomy
+track_0010369,Les faux hommes en bleu,Nesta Positive,reggae,reggae,0.4586,1.989,True,hiphop,0.3338,2.489,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0010672,Day after day,Keep Cool Vibration,reggae,reggae,0.914,0.672,True,reggae,0.5774,2.0,True,True,Moderate Uncertainty
+track_0011100,Get smoke weed,Chelmi,reggae,hiphop,0.6542,1.407,False,reggae,0.5633,1.464,True,False,Architectural Disagreement
+track_0015478,Bahia,Kallima,reggae,reggae,0.8279,0.827,True,reggae,0.4141,2.423,True,True,Moderate Uncertainty
+track_0016140,BABYLON,Activ-System,reggae,hiphop,0.6193,1.213,False,reggae,0.6103,1.004,True,False,Architectural Disagreement
+track_0028103,Unconditional Luv,AkerUi,reggae,disco,0.4572,2.422,False,reggae,0.8972,0.683,True,False,Architectural Disagreement
+track_0030259,Reggae Reggae,Slap Stick,reggae,disco,0.2257,2.701,False,reggae,0.4412,2.037,True,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0049012,Kiddy Stuff,Cyberdread,reggae,disco,0.5487,1.858,False,reggae,0.5866,1.398,True,False,Architectural Disagreement
+track_0074693,I'm Still in Love with You (Marcia Aitken's cover),Gruth,reggae,reggae,0.9505,0.415,True,reggae,0.5405,1.864,True,True,Moderate Uncertainty
+track_0084494,03 03 - La Valsa,Taxi Brouss',reggae,reggae,0.2178,2.983,True,hiphop,0.9191,0.563,False,False,Architectural Disagreement
+track_0001289,of grace and favour #2,Pull My Daisy (Ex Lillian Gish),rock,metal,0.7684,1.274,False,metal,0.5593,1.779,False,True,Moderate Uncertainty
+track_0007788,Scarnation,vincent j,rock,metal,0.9823,0.158,False,metal,0.8903,0.649,False,True,Confident Consensus
+track_0013282,Intro Le con damné,Clainzy,rock,rock,0.342,2.853,True,rock,0.5455,2.222,True,True,High Uncertainty / Potential Out-of-Taxonomy
+track_0014343,Ahora te lamentas,LA CAJA NEGRA,rock,blues,0.3051,2.468,False,metal,0.4173,1.945,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0016861,Generic (Drug),DevonMiles,rock,metal,0.741,1.134,False,metal,0.7229,1.322,False,True,Confident Consensus
+track_0019852,Reg,thelittlewoodstudio,rock,blues,0.5953,1.846,False,country,0.4466,2.135,False,False,High Uncertainty / Potential Out-of-Taxonomy
+track_0020587,Conspiracy,Louis Lingg and the Bombs,rock,metal,0.585,1.277,False,metal,0.8783,0.647,False,True,Confident Consensus
+track_0040570,Superlative,ED3-STUDIO,rock,hiphop,0.7959,1.228,False,pop,0.6188,1.147,False,False,Architectural Disagreement
+track_0042316,no balls,Bronco,rock,metal,0.8691,0.764,False,metal,0.9257,0.531,False,True,Confident Consensus
+track_0044420,Upside Down,Croxing,rock,hiphop,0.6463,1.386,False,metal,0.5745,1.736,False,False,Architectural Disagreement

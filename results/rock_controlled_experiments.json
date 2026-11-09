@@ -1,0 +1,68 @@
+[
+  {
+    "config": "1. Baseline (Uniform CE)",
+    "val_accuracy": 0.7219,
+    "val_macro_f1": 0.7199,
+    "rock_recall": 0.2667,
+    "rock_precision": 0.25,
+    "rock_f1": 0.2581,
+    "ext_rock_prediction": "rock",
+    "ext_rock_conf": 0.4725,
+    "ext_rock_prob": 0.4725
+  },
+  {
+    "config": "2. Class Weight (Rock=1.5)",
+    "val_accuracy": 0.7086,
+    "val_macro_f1": 0.7123,
+    "rock_recall": 0.2667,
+    "rock_precision": 0.2105,
+    "rock_f1": 0.2353,
+    "ext_rock_prediction": "disco",
+    "ext_rock_conf": 0.6219,
+    "ext_rock_prob": 0.2461
+  },
+  {
+    "config": "3. Class Weight (Rock=2.0)",
+    "val_accuracy": 0.7285,
+    "val_macro_f1": 0.7332,
+    "rock_recall": 0.3333,
+    "rock_precision": 0.2778,
+    "rock_f1": 0.303,
+    "ext_rock_prediction": "rock",
+    "ext_rock_conf": 0.2706,
+    "ext_rock_prob": 0.2706
+  },
+  {
+    "config": "4. Class Weight (Rock=2.5)",
+    "val_accuracy": 0.7417,
+    "val_macro_f1": 0.7439,
+    "rock_recall": 0.4,
+    "rock_precision": 0.3333,
+    "rock_f1": 0.3636,
+    "ext_rock_prediction": "disco",
+    "ext_rock_conf": 0.4111,
+    "ext_rock_prob": 0.3058
+  },
+  {
+    "config": "5. Focal Loss (gamma=1.5)",
+    "val_accuracy": 0.7152,
+    "val_macro_f1": 0.719,
+    "rock_recall": 0.4667,
+    "rock_precision": 0.3684,
+    "rock_f1": 0.4118,
+    "ext_rock_prediction": "disco",
+    "ext_rock_conf": 0.6233,
+    "ext_rock_prob": 0.2219
+  },
+  {
+    "config": "6. Focal Loss (gamma=2.0)",
+    "val_accuracy": 0.7483,
+    "val_macro_f1": 0.7432,
+    "rock_recall": 0.2667,
+    "rock_precision": 0.3333,
+    "rock_f1": 0.2963,
+    "ext_rock_prediction": "disco",
+    "ext_rock_conf": 0.3541,
+    "ext_rock_prob": 0.1729
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "model_version": "Phase 11 Production Calibrated (Multi-Domain Augmented)",
+  "feature_count": 75,
+  "is_decontaminated_split": true,
+  "multi_source": true,
+  "training_samples": 1602
+}

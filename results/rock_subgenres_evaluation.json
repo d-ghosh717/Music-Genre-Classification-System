@@ -1,0 +1,182 @@
+[
+  {
+    "subgenre": "Classic Rock (70s Style Overdrive)",
+    "path": "dataset/external_test/rock_subgenres/classic_rock.wav",
+    "expected": "rock",
+    "ann": {
+      "pred": "jazz",
+      "conf": 0.7481,
+      "entropy": 1.001,
+      "top3": [
+        {
+          "genre": "jazz",
+          "probability": 0.7480649352073669
+        },
+        {
+          "genre": "pop",
+          "probability": 0.21928143501281738
+        },
+        {
+          "genre": "classical",
+          "probability": 0.02295072190463543
+        }
+      ]
+    },
+    "cnn": {
+      "pred": "jazz",
+      "conf": 0.4964,
+      "entropy": 1.486,
+      "top3": [
+        {
+          "genre": "jazz",
+          "probability": 0.49642297625541687
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.3884621858596802
+        },
+        {
+          "genre": "pop",
+          "probability": 0.09661915898323059
+        }
+      ]
+    },
+    "models_agree": true,
+    "uncertainty_status": "Moderate Uncertainty"
+  },
+  {
+    "subgenre": "Hard Rock (High-Gain Power Chords)",
+    "path": "dataset/external_test/rock_subgenres/hard_rock.wav",
+    "expected": "rock / metal",
+    "ann": {
+      "pred": "jazz",
+      "conf": 0.9863,
+      "entropy": 0.107,
+      "top3": [
+        {
+          "genre": "jazz",
+          "probability": 0.9862712621688843
+        },
+        {
+          "genre": "classical",
+          "probability": 0.01338839903473854
+        },
+        {
+          "genre": "pop",
+          "probability": 0.0002540740533731878
+        }
+      ]
+    },
+    "cnn": {
+      "pred": "pop",
+      "conf": 0.7789,
+      "entropy": 1.062,
+      "top3": [
+        {
+          "genre": "pop",
+          "probability": 0.7789010405540466
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.14217877388000488
+        },
+        {
+          "genre": "jazz",
+          "probability": 0.05929545685648918
+        }
+      ]
+    },
+    "models_agree": false,
+    "uncertainty_status": "Architectural Disagreement"
+  },
+  {
+    "subgenre": "Alternative / Grunge Rock (Fuzz Bass / Modulated)",
+    "path": "dataset/external_test/rock_subgenres/alternative_grunge.wav",
+    "expected": "rock",
+    "ann": {
+      "pred": "metal",
+      "conf": 0.5931,
+      "entropy": 1.264,
+      "top3": [
+        {
+          "genre": "metal",
+          "probability": 0.5931247472763062
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.3592863082885742
+        },
+        {
+          "genre": "jazz",
+          "probability": 0.02825728990137577
+        }
+      ]
+    },
+    "cnn": {
+      "pred": "hiphop",
+      "conf": 0.6387,
+      "entropy": 1.82,
+      "top3": [
+        {
+          "genre": "hiphop",
+          "probability": 0.6387351751327515
+        },
+        {
+          "genre": "pop",
+          "probability": 0.10757127404212952
+        },
+        {
+          "genre": "jazz",
+          "probability": 0.07495103776454926
+        }
+      ]
+    },
+    "models_agree": false,
+    "uncertainty_status": "Architectural Disagreement"
+  },
+  {
+    "subgenre": "Modern Indie Rock (rock.mp3 / High Sheen Master)",
+    "path": "dataset/external_test/rock_modern.mp3",
+    "expected": "rock",
+    "ann": {
+      "pred": "pop",
+      "conf": 0.4334,
+      "entropy": 2.124,
+      "top3": [
+        {
+          "genre": "pop",
+          "probability": 0.43342986702919006
+        },
+        {
+          "genre": "rock",
+          "probability": 0.23326173424720764
+        },
+        {
+          "genre": "disco",
+          "probability": 0.15958525240421295
+        }
+      ]
+    },
+    "cnn": {
+      "pred": "pop",
+      "conf": 0.4695,
+      "entropy": 2.101,
+      "top3": [
+        {
+          "genre": "pop",
+          "probability": 0.46948254108428955
+        },
+        {
+          "genre": "metal",
+          "probability": 0.2486441284418106
+        },
+        {
+          "genre": "rock",
+          "probability": 0.10732585936784744
+        }
+      ]
+    },
+    "models_agree": true,
+    "uncertainty_status": "High Uncertainty / Potential Out-of-Taxonomy"
+  }
+]

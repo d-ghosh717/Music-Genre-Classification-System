@@ -1,0 +1,577 @@
+{
+  "external_file": "/Users/dibyangshughosh/Downloads/rock.mp3",
+  "external_metrics": {
+    "duration": 18.52081632653061,
+    "sr": 22050,
+    "centroid_mean": 3019.0859399273,
+    "bandwidth_mean": 2726.4156055169165,
+    "rolloff_mean": 6452.931614925987,
+    "contrast_mean": 20.696453709314916,
+    "rms_mean": 0.13713467121124268,
+    "crest_factor": 6.983921171507777,
+    "tempo": 64.599609375
+  },
+  "distances_in_75d": {
+    "dist_to_pop": 11.183036804199219,
+    "dist_to_metal": 12.981281280517578,
+    "dist_to_rock": 11.832220077514648
+  },
+  "clean_rock_results": [
+    {
+      "track": "rock.00024.wav",
+      "ann_pred": "rock",
+      "ann_conf": 0.6757727861404419,
+      "ann_entropy": 1.564,
+      "ann_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.6757727861404419
+        },
+        {
+          "genre": "disco",
+          "probability": 0.138030007481575
+        },
+        {
+          "genre": "country",
+          "probability": 0.12038762867450714
+        }
+      ],
+      "cnn_pred": "rock",
+      "cnn_conf": 0.6446459889411926,
+      "cnn_entropy": 1.774,
+      "cnn_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.6446459889411926
+        },
+        {
+          "genre": "country",
+          "probability": 0.13258424401283264
+        },
+        {
+          "genre": "metal",
+          "probability": 0.09389052540063858
+        }
+      ]
+    },
+    {
+      "track": "rock.00085.wav",
+      "ann_pred": "country",
+      "ann_conf": 0.3822871446609497,
+      "ann_entropy": 2.155,
+      "ann_top3": [
+        {
+          "genre": "country",
+          "probability": 0.3822871446609497
+        },
+        {
+          "genre": "disco",
+          "probability": 0.25928574800491333
+        },
+        {
+          "genre": "rock",
+          "probability": 0.16058090329170227
+        }
+      ],
+      "cnn_pred": "country",
+      "cnn_conf": 0.5677170753479004,
+      "cnn_entropy": 1.905,
+      "cnn_top3": [
+        {
+          "genre": "country",
+          "probability": 0.5677170753479004
+        },
+        {
+          "genre": "jazz",
+          "probability": 0.22104476392269135
+        },
+        {
+          "genre": "pop",
+          "probability": 0.0943535789847374
+        }
+      ]
+    },
+    {
+      "track": "rock.00022.wav",
+      "ann_pred": "rock",
+      "ann_conf": 0.7559788823127747,
+      "ann_entropy": 1.383,
+      "ann_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.7559788823127747
+        },
+        {
+          "genre": "metal",
+          "probability": 0.07349283248186111
+        },
+        {
+          "genre": "country",
+          "probability": 0.0650135949254036
+        }
+      ],
+      "cnn_pred": "rock",
+      "cnn_conf": 0.5137671232223511,
+      "cnn_entropy": 2.174,
+      "cnn_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.5137671232223511
+        },
+        {
+          "genre": "metal",
+          "probability": 0.1521703004837036
+        },
+        {
+          "genre": "country",
+          "probability": 0.14026449620723724
+        }
+      ]
+    },
+    {
+      "track": "rock.00002.wav",
+      "ann_pred": "rock",
+      "ann_conf": 0.7878630757331848,
+      "ann_entropy": 1.32,
+      "ann_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.7878630757331848
+        },
+        {
+          "genre": "metal",
+          "probability": 0.059301529079675674
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.04146634414792061
+        }
+      ],
+      "cnn_pred": "rock",
+      "cnn_conf": 0.6874832510948181,
+      "cnn_entropy": 1.624,
+      "cnn_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.6874832510948181
+        },
+        {
+          "genre": "country",
+          "probability": 0.09979690611362457
+        },
+        {
+          "genre": "jazz",
+          "probability": 0.08234180510044098
+        }
+      ]
+    },
+    {
+      "track": "rock.00038.wav",
+      "ann_pred": "pop",
+      "ann_conf": 0.5187543034553528,
+      "ann_entropy": 1.877,
+      "ann_top3": [
+        {
+          "genre": "pop",
+          "probability": 0.5187543034553528
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.22025704383850098
+        },
+        {
+          "genre": "disco",
+          "probability": 0.1777016818523407
+        }
+      ],
+      "cnn_pred": "disco",
+      "cnn_conf": 0.4064578711986542,
+      "cnn_entropy": 2.142,
+      "cnn_top3": [
+        {
+          "genre": "disco",
+          "probability": 0.4064578711986542
+        },
+        {
+          "genre": "metal",
+          "probability": 0.33206117153167725
+        },
+        {
+          "genre": "rock",
+          "probability": 0.08996351808309555
+        }
+      ]
+    },
+    {
+      "track": "rock.00014.wav",
+      "ann_pred": "reggae",
+      "ann_conf": 0.9741653800010681,
+      "ann_entropy": 0.237,
+      "ann_top3": [
+        {
+          "genre": "reggae",
+          "probability": 0.9741653800010681
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.011800657026469707
+        },
+        {
+          "genre": "metal",
+          "probability": 0.003943524323403835
+        }
+      ],
+      "cnn_pred": "hiphop",
+      "cnn_conf": 0.30922508239746094,
+      "cnn_entropy": 2.424,
+      "cnn_top3": [
+        {
+          "genre": "hiphop",
+          "probability": 0.30922508239746094
+        },
+        {
+          "genre": "reggae",
+          "probability": 0.24366946518421173
+        },
+        {
+          "genre": "blues",
+          "probability": 0.17661862075328827
+        }
+      ]
+    },
+    {
+      "track": "rock.00027.wav",
+      "ann_pred": "disco",
+      "ann_conf": 0.48212534189224243,
+      "ann_entropy": 2.549,
+      "ann_top3": [
+        {
+          "genre": "disco",
+          "probability": 0.48212534189224243
+        },
+        {
+          "genre": "rock",
+          "probability": 0.10360806435346603
+        },
+        {
+          "genre": "country",
+          "probability": 0.07589457929134369
+        }
+      ],
+      "cnn_pred": "metal",
+      "cnn_conf": 0.4082171320915222,
+      "cnn_entropy": 2.525,
+      "cnn_top3": [
+        {
+          "genre": "metal",
+          "probability": 0.4082171320915222
+        },
+        {
+          "genre": "rock",
+          "probability": 0.20204222202301025
+        },
+        {
+          "genre": "pop",
+          "probability": 0.10484824329614639
+        }
+      ]
+    },
+    {
+      "track": "rock.00016.wav",
+      "ann_pred": "metal",
+      "ann_conf": 0.8303847908973694,
+      "ann_entropy": 0.922,
+      "ann_top3": [
+        {
+          "genre": "metal",
+          "probability": 0.8303847908973694
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.09486740082502365
+        },
+        {
+          "genre": "rock",
+          "probability": 0.055866725742816925
+        }
+      ],
+      "cnn_pred": "metal",
+      "cnn_conf": 0.9405262470245361,
+      "cnn_entropy": 0.433,
+      "cnn_top3": [
+        {
+          "genre": "metal",
+          "probability": 0.9405262470245361
+        },
+        {
+          "genre": "rock",
+          "probability": 0.03460417315363884
+        },
+        {
+          "genre": "pop",
+          "probability": 0.010996177792549133
+        }
+      ]
+    },
+    {
+      "track": "rock.00037.wav",
+      "ann_pred": "disco",
+      "ann_conf": 0.6093072295188904,
+      "ann_entropy": 1.522,
+      "ann_top3": [
+        {
+          "genre": "disco",
+          "probability": 0.6093072295188904
+        },
+        {
+          "genre": "rock",
+          "probability": 0.29527196288108826
+        },
+        {
+          "genre": "country",
+          "probability": 0.03421282395720482
+        }
+      ],
+      "cnn_pred": "rock",
+      "cnn_conf": 0.49923691153526306,
+      "cnn_entropy": 2.118,
+      "cnn_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.49923691153526306
+        },
+        {
+          "genre": "disco",
+          "probability": 0.16469141840934753
+        },
+        {
+          "genre": "blues",
+          "probability": 0.160855233669281
+        }
+      ]
+    },
+    {
+      "track": "rock.00043.wav",
+      "ann_pred": "disco",
+      "ann_conf": 0.33463171124458313,
+      "ann_entropy": 2.447,
+      "ann_top3": [
+        {
+          "genre": "disco",
+          "probability": 0.33463171124458313
+        },
+        {
+          "genre": "rock",
+          "probability": 0.2790554463863373
+        },
+        {
+          "genre": "pop",
+          "probability": 0.16676372289657593
+        }
+      ],
+      "cnn_pred": "metal",
+      "cnn_conf": 0.38177862763404846,
+      "cnn_entropy": 1.94,
+      "cnn_top3": [
+        {
+          "genre": "metal",
+          "probability": 0.38177862763404846
+        },
+        {
+          "genre": "rock",
+          "probability": 0.37619921565055847
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.15614664554595947
+        }
+      ]
+    },
+    {
+      "track": "rock.00073.wav",
+      "ann_pred": "disco",
+      "ann_conf": 0.5100629925727844,
+      "ann_entropy": 1.71,
+      "ann_top3": [
+        {
+          "genre": "disco",
+          "probability": 0.5100629925727844
+        },
+        {
+          "genre": "rock",
+          "probability": 0.36696526408195496
+        },
+        {
+          "genre": "blues",
+          "probability": 0.04473591595888138
+        }
+      ],
+      "cnn_pred": "rock",
+      "cnn_conf": 0.8995559811592102,
+      "cnn_entropy": 0.693,
+      "cnn_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.8995559811592102
+        },
+        {
+          "genre": "disco",
+          "probability": 0.04024319350719452
+        },
+        {
+          "genre": "country",
+          "probability": 0.02684975229203701
+        }
+      ]
+    },
+    {
+      "track": "rock.00088.wav",
+      "ann_pred": "rock",
+      "ann_conf": 0.5330002307891846,
+      "ann_entropy": 1.948,
+      "ann_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.5330002307891846
+        },
+        {
+          "genre": "disco",
+          "probability": 0.26806285977363586
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.06429804861545563
+        }
+      ],
+      "cnn_pred": "hiphop",
+      "cnn_conf": 0.3173743188381195,
+      "cnn_entropy": 2.133,
+      "cnn_top3": [
+        {
+          "genre": "hiphop",
+          "probability": 0.3173743188381195
+        },
+        {
+          "genre": "metal",
+          "probability": 0.2974195182323456
+        },
+        {
+          "genre": "jazz",
+          "probability": 0.18480989336967468
+        }
+      ]
+    },
+    {
+      "track": "rock.00017.wav",
+      "ann_pred": "rock",
+      "ann_conf": 0.663565993309021,
+      "ann_entropy": 1.395,
+      "ann_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.663565993309021
+        },
+        {
+          "genre": "metal",
+          "probability": 0.24293719232082367
+        },
+        {
+          "genre": "country",
+          "probability": 0.05504770949482918
+        }
+      ],
+      "cnn_pred": "rock",
+      "cnn_conf": 0.5807404518127441,
+      "cnn_entropy": 1.487,
+      "cnn_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.5807404518127441
+        },
+        {
+          "genre": "metal",
+          "probability": 0.3255476653575897
+        },
+        {
+          "genre": "country",
+          "probability": 0.046448737382888794
+        }
+      ]
+    },
+    {
+      "track": "rock.00056.wav",
+      "ann_pred": "rock",
+      "ann_conf": 0.4327400028705597,
+      "ann_entropy": 2.417,
+      "ann_top3": [
+        {
+          "genre": "rock",
+          "probability": 0.4327400028705597
+        },
+        {
+          "genre": "disco",
+          "probability": 0.18450304865837097
+        },
+        {
+          "genre": "metal",
+          "probability": 0.17128314077854156
+        }
+      ],
+      "cnn_pred": "metal",
+      "cnn_conf": 0.9066855907440186,
+      "cnn_entropy": 0.624,
+      "cnn_top3": [
+        {
+          "genre": "metal",
+          "probability": 0.9066855907440186
+        },
+        {
+          "genre": "rock",
+          "probability": 0.03911777585744858
+        },
+        {
+          "genre": "pop",
+          "probability": 0.03131734952330589
+        }
+      ]
+    },
+    {
+      "track": "rock.00063.wav",
+      "ann_pred": "reggae",
+      "ann_conf": 0.7400030493736267,
+      "ann_entropy": 1.432,
+      "ann_top3": [
+        {
+          "genre": "reggae",
+          "probability": 0.7400030493736267
+        },
+        {
+          "genre": "hiphop",
+          "probability": 0.07842417061328888
+        },
+        {
+          "genre": "country",
+          "probability": 0.07323623448610306
+        }
+      ],
+      "cnn_pred": "jazz",
+      "cnn_conf": 0.3640453517436981,
+      "cnn_entropy": 2.436,
+      "cnn_top3": [
+        {
+          "genre": "jazz",
+          "probability": 0.3640453517436981
+        },
+        {
+          "genre": "pop",
+          "probability": 0.2398054003715515
+        },
+        {
+          "genre": "blues",
+          "probability": 0.15424954891204834
+        }
+      ]
+    }
+  ],
+  "summary": "External rock.mp3 exhibits high compression (low crest factor), bright production, and closer proximity to Pop centroid than GTZAN 1990s analog Rock recordings."
+}

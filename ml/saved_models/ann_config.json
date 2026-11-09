@@ -1,0 +1,70 @@
+{
+  "class_labels": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "feature_count": 75,
+  "is_decontaminated_split": true,
+  "feature_configuration": {
+    "n_mfcc": 13,
+    "n_chroma": 12,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "sample_rate": 22050
+  },
+  "training_date": "2026-11-08T05:53:32.792699+00:00",
+  "dataset_split_information": {
+    "train_tracks": 694,
+    "val_tracks": 151,
+    "test_tracks": 153,
+    "split_type": "decontaminated_grouped_stratified",
+    "clean_splits_manifest": "dataset/clean_splits.json",
+    "random_seed": 42
+  },
+  "model_architecture": {
+    "type": "Multilayer Perceptron (ANN)",
+    "layer_sizes": [
+      256,
+      128,
+      64
+    ],
+    "dropout_rates": [
+      0.25,
+      0.2,
+      0.2
+    ],
+    "use_batch_norm": true,
+    "summary": "Input(75) -> Dense(256, ReLU) -> BN -> Dropout(0.25) -> Dense(128, ReLU) -> BN -> Dropout(0.2) -> Dense(64, ReLU) -> Dropout(0.2) -> Dense(10, Softmax)"
+  },
+  "training_configuration": {
+    "epochs": 120,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "loss": "sparse_categorical_crossentropy",
+    "early_stopping_patience": 20,
+    "lr_reduce_patience": 10
+  },
+  "relative_paths": {
+    "model_path": "ml/saved_models/ann_model.keras",
+    "best_model_path": "ml/saved_models/ann_best.keras",
+    "scaler_path": "ml/saved_models/ann_scaler.pkl",
+    "metadata_path": "ml/saved_models/ann_metadata.json"
+  },
+  "performance": {
+    "test_accuracy": 0.6928104575163399,
+    "test_f1_macro": 0.696069811628454,
+    "test_f1_weighted": 0.6963935552356609,
+    "test_loss": 0.9979125261306763,
+    "epochs_trained": 33,
+    "training_duration_seconds": 1.75
+  }
+}

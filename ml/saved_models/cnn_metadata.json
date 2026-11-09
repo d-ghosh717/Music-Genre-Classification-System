@@ -1,0 +1,11 @@
+{
+  "model_version": "Phase 11 Production Calibrated (Multi-Domain End-to-End)",
+  "input_shape": [
+    128,
+    130,
+    1
+  ],
+  "is_decontaminated_split": true,
+  "multi_source": true,
+  "training_samples": 1649
+}

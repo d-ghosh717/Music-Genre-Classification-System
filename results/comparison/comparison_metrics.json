@@ -1,0 +1,19 @@
+{
+  "ann": {
+    "accuracy": 0.6928104575163399,
+    "f1_macro": 0.696069811628454,
+    "f1_weighted": 0.6963935552356609,
+    "test_loss": 0.9979125261306763
+  },
+  "cnn": {
+    "accuracy": 0.803921568627451,
+    "f1_macro": 0.7913664740230205,
+    "f1_weighted": 0.79284403727856,
+    "test_loss": 0.8809871673583984
+  },
+  "comparison": {
+    "accuracy_difference": 0.1111,
+    "f1_difference": 0.0953,
+    "superior_model": "CNN"
+  }
+}

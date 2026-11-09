@@ -1,0 +1,67 @@
+{
+  "benchmark_type": "Phase 8 Decontaminated & Grouped Stratified (Zero Leakage)",
+  "clean_split_manifest": "dataset/clean_splits.json",
+  "decontamination_summary": {
+    "total_valid_tracks": 998,
+    "train_tracks": 694,
+    "val_tracks": 151,
+    "test_tracks": 153,
+    "excluded_corrupted": [
+      "jazz.00054.wav"
+    ],
+    "excluded_contradictory": [
+      "metal.00058.wav"
+    ],
+    "retained_counterpart": "rock.00016.wav (Queen - 'Tie Your Mother Down')",
+    "duplicate_groups_isolated": 30,
+    "leakage_count": 0
+  },
+  "final_ann": {
+    "model_name": "Improved ANN (75 Features, Decontaminated Split)",
+    "accuracy": 0.6928104575163399,
+    "macro_precision": 0.7211309246309247,
+    "macro_recall": 0.6930952380952381,
+    "macro_f1": 0.696069811628454,
+    "weighted_f1": 0.6963935552356609,
+    "test_loss": 0.9979125261306763,
+    "evaluated_tracks": 153
+  },
+  "final_cnn": {
+    "model_name": "2D CNN (Mel-Spectrograms, Decontaminated Split)",
+    "accuracy": 0.803921568627451,
+    "macro_precision": 0.8120798486858858,
+    "macro_recall": 0.8013690476190476,
+    "macro_f1": 0.7913664740230205,
+    "weighted_f1": 0.79284403727856,
+    "test_loss": 0.8809871673583984,
+    "evaluated_tracks": 153
+  },
+  "architectural_comparison": {
+    "accuracy_difference": 0.1111,
+    "macro_f1_difference": 0.0953,
+    "superior_model": "CNN"
+  },
+  "historical_evolution": {
+    "baseline_contaminated": {
+      "ann_accuracy": 0.68,
+      "ann_f1_macro": 0.6667,
+      "cnn_accuracy": 0.8733,
+      "cnn_f1_macro": 0.8715,
+      "split_notes": "Contains 7 duplicate groups leaking across train/val/test partitions (Sturm 2013)."
+    },
+    "phase7_improved_contaminated": {
+      "ann_accuracy": 0.7333,
+      "ann_f1_macro": 0.7312,
+      "cnn_accuracy": 0.8667,
+      "cnn_f1_macro": 0.8646,
+      "split_notes": "75 features added; evaluated on identical contaminated split for controlled ablation."
+    },
+    "phase8_final_clean": {
+      "ann_accuracy": 0.6928104575163399,
+      "ann_f1_macro": 0.696069811628454,
+      "cnn_accuracy": 0.803921568627451,
+      "cnn_f1_macro": 0.7913664740230205,
+      "split_notes": "Zero leakage; all duplicate groups grouped atomically; contradictory label resolved."
+    }
+  }
+}
