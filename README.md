@@ -242,8 +242,8 @@ Only include folders that exist in the shared repository. Large datasets and gen
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd NNP
+git clone https://github.com/d-ghosh717/Music-Genre-Classification-System.git
+cd Music-Genre-Classification-System
 ```
 
 ### 2. Create and activate a virtual environment
